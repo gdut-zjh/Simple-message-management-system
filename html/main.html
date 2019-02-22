@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>实训W2D4 - 主界面</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="top">
+        <div class="top-content">
+            <img src="../img/logo.png" alt="logo" class="logo">
+            <span>系统信息管理</span>
+        </div>
+    </div>
+    <div class="center">
+        <div class="center-content">
+            <input type="button" value="新增系统信息" id="addSysBtn" class="btn">
+            <span>按系统标题搜索:</span>
+            <input type="text" class="inputText" id="searchInp">
+            <input type="button" value="搜索" class="btn getBtn" id="searchBtn">
+            <table border="1" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>系统信息标签</th>
+                        <th>系统信息标题</th>
+                        <th>系统信息内容</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 新增信息弹出框 -->
+    <div class="boxShade" id="addSysBlock">
+        <div class="Block">
+            <div class="blockTitle">新增系统信息</div>
+            <div class="blockContent">
+                <div class="contentBox">
+                    <span>标签：</span>
+                    <input type="text" id="addflag" class="inputText" autofocus="autofocus">
+                </div>
+                <div class="contentBox">
+                    <span>标题：</span>
+                    <input type="text" id="addtitle" class="inputText">
+                </div>
+                <div class="contentBox">
+                    <span>内容：</span>
+                    <textarea name="" id="addcontent"></textarea>
+                </div>
+                <div class="contentBox">
+                    <input type="button" value="确定" class="btn confirmBtn" id="addSysComfirmBtn">
+                    <input type="button" value="取消" class="btn cancelBtn" id="addSysCancelBtn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 修改信息弹出框 -->
+    <div class="boxShade" id="editSysBlock">
+        <div class="Block">
+            <div class="blockTitle">修改系统信息</div>
+            <div class="blockContent">
+                <div class="contentBox">
+                    <span>标签：</span>
+                    <input type="text" id="editflag" class="inputText" autofocus="autofocus">
+                </div>
+                <div class="contentBox">
+                    <span>标题：</span>
+                    <input type="text" id="edittitle" class="inputText">
+                </div>
+                <div class="contentBox">
+                    <span>内容：</span>
+                    <textarea id="editcontent"></textarea>
+                </div>
+                <div class="contentBox">
+                    <input type="button" value="确定" class="btn confirmBtn" id="editSysComfirmBtn">
+                    <input type="button" value="取消" class="btn cancelBtn" id="editSysCancelBtn">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/layer-v3.1.1/layer/layer.js"></script>
+    <script src="../js/global.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

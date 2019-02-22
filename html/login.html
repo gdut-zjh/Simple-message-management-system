@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>实训W2D4 - 登陆</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="loginBox">
+        <table class="loginTable">
+            <tr>
+                <td>账号</td>
+                <td colspan="2"><input type="text" id="accountInp" autofocus="autofocus"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td colspan="2"><input type="password" id="passwordInp"></td>
+            </tr>
+            <tr>
+                <td>验证码</td>
+                <td><input type="text" id="picCodeInp"></td>
+                <td><img alt="picCode" id="picCode"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="button" value="登陆" id="loginBtn"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/layer-v3.1.1/layer/layer.js"></script>
+    <script src="../js/global.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

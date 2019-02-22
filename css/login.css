@@ -1,0 +1,12 @@
+*{margin:0;padding: 0;font-family: "微软雅黑";font-size: 14px;}
+/* 登陆盒子 */
+.loginBox{margin: 200px auto auto auto;width: 400px;border: 1px solid #ccc;padding: 50px;border-radius: 15px;}
+/* 登陆表格 */
+.loginBox .loginTable td{height: 60px;} /* 每列 */
+.loginBox .loginTable td input{width: 220px;height: 35px;border-radius: 5px;outline: none;border: 1px solid #ccc;padding-left: 10px;}  /* 输入框 */
+#picCodeInp{width: 120px;}  /* 验证码输入框 */
+#picCode{cursor: pointer;}
+.loginBox .loginTable td:nth-child(1){width: 100px;text-align: right;padding-right: 20px;}  /* 第一列 */
+.loginBox .loginTable tr:nth-child(4) td{text-align: center;padding: 0;}  /* 第四行的第一列（登陆按钮那行） */
+#loginBtn{width: 100px;height: 40px;background: dodgerblue;outline: none;border: 1px solid dodgerblue;border-radius: 5px;cursor: pointer;color: white;padding: 0;} /* 登陆按钮 */
+#loginBtn:hover{background-color: #3598FF;}

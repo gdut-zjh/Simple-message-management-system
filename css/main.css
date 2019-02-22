@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;}
+
+
+/* 顶部 */
+.top{width: 100%;border-bottom: 1px solid #ccc;}
+.top-content{width: 1200px;height: 100px;margin: 0 auto;line-height: 100px;font-size: 32px;}
+.top-content .logo{width: 80px;border-radius: 50%;float: left;margin: 13px 30px 0 0;}
+
+/* 中部 */
+.center{width: 100%;margin: 0 0 100px 0;}
+.center-content{width: 1200px;margin: 0 auto;}
+/* 按钮 */
+.btn{width: 150px;height: 40px;background: dodgerblue;outline: none;border: 1px solid dodgerblue;border-radius: 5px;cursor: pointer;color: white;margin: 30px 50px 30px 0;font-size: 16px;} 
+.btn:hover{background-color: #3598FF;}
+.editBtn,.delBtn,.getBtn,.confirmBtn,.cancelBtn{width: 60px;height: 30px;margin: 0;font-size: 14px;}
+/* 搜索框 */
+.inputText{width: 190px;height: 30px;padding-left: 10px;border: 1px solid #ccc;border-radius: 5px;outline: none;margin: 0 15px;font-size: 18px;}
+
+/* 表格 */
+td,th{height: 40px;text-align: center;}
+th:nth-child(1),th:nth-child(2),th:nth-child(4){width: 200px;}
+th:nth-child(3){width: 400px;}
+
+/* 阴影遮罩 */
+.boxShade{width: 100%;background-color: rgba(0,0,0, 0.6);position: absolute;top: 0;display: none;}
+/* 点击新增系统信息按钮弹出的块 */
+.Block{width: 500px;background-color: white; border-radius: 15px;position: relative;top: 15%;left: 37%;}
+.blockTitle{background-color: dodgerblue;border-top-left-radius: 15px;border-top-right-radius: 15px;height: 60px;font-size: 26px;color:white;text-align: center;line-height: 60px;}
+.blockContent{padding: 30px 0;}
+.contentBox{width: 300px;margin: 20px auto;font-size: 18px;text-align: center;}
+.contentBox textarea{resize: none;width: 180px;height: 180px;border-radius: 5px;outline: none;font-size: 18px;font-weight: 600;padding: 10px;}
+
+
